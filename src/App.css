@@ -1,0 +1,41 @@
+body {
+  background: white;
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.conteudoLateralDireita,
+.conteudoLateralEsquerda,
+.conteudoCentral {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.conteudoLateralEsquerda {
+  display: flex;
+  width: 35vw;
+  background: white;
+  line-height: 20px;
+  border-right: 1px solid rgba(0,0,0,.1);
+  
+}
+
+.conteudoLateralDireita {
+  background: white;
+  width:40vw;
+
+  
+}
+
+.conteudoCentral {
+  width:60vw;
+  background: #fafafa;
+}
+
